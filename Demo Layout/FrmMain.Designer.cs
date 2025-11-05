@@ -63,6 +63,7 @@
             button1 = new Button();
             panel4 = new Panel();
             panel1 = new Panel();
+            button10 = new Button();
             button9 = new Button();
             panel3 = new Panel();
             button8 = new Button();
@@ -72,7 +73,7 @@
             textBox1 = new TextBox();
             label2 = new Label();
             label1 = new Label();
-            button10 = new Button();
+            button11 = new Button();
             menuStrip1.SuspendLayout();
             toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
@@ -293,7 +294,7 @@
             splitContainer1.Panel2.Controls.Add(panel4);
             splitContainer1.Panel2.Controls.Add(panel1);
             splitContainer1.Size = new Size(1517, 723);
-            splitContainer1.SplitterDistance = 338;
+            splitContainer1.SplitterDistance = 337;
             splitContainer1.TabIndex = 2;
             // 
             // button6
@@ -304,7 +305,7 @@
             button6.ImageAlign = ContentAlignment.MiddleLeft;
             button6.Location = new Point(0, 285);
             button6.Name = "button6";
-            button6.Size = new Size(338, 57);
+            button6.Size = new Size(337, 57);
             button6.TabIndex = 5;
             button6.Text = "Tài khoản thanh toán";
             button6.TextAlign = ContentAlignment.MiddleRight;
@@ -319,7 +320,7 @@
             button5.ImageAlign = ContentAlignment.MiddleLeft;
             button5.Location = new Point(0, 228);
             button5.Name = "button5";
-            button5.Size = new Size(338, 57);
+            button5.Size = new Size(337, 57);
             button5.TabIndex = 4;
             button5.Text = "Đối tượng giao dịch";
             button5.TextAlign = ContentAlignment.MiddleRight;
@@ -334,7 +335,7 @@
             button4.ImageAlign = ContentAlignment.MiddleLeft;
             button4.Location = new Point(0, 171);
             button4.Name = "button4";
-            button4.Size = new Size(338, 57);
+            button4.Size = new Size(337, 57);
             button4.TabIndex = 3;
             button4.Text = "Danh mục chi tiêu";
             button4.TextAlign = ContentAlignment.MiddleRight;
@@ -349,7 +350,7 @@
             button3.ImageAlign = ContentAlignment.MiddleLeft;
             button3.Location = new Point(0, 114);
             button3.Name = "button3";
-            button3.Size = new Size(338, 57);
+            button3.Size = new Size(337, 57);
             button3.TabIndex = 2;
             button3.Text = "Lập ngân sách";
             button3.TextAlign = ContentAlignment.MiddleRight;
@@ -364,7 +365,7 @@
             button2.ImageAlign = ContentAlignment.MiddleLeft;
             button2.Location = new Point(0, 57);
             button2.Name = "button2";
-            button2.Size = new Size(338, 57);
+            button2.Size = new Size(337, 57);
             button2.TabIndex = 1;
             button2.Text = "Quản lý giao dịch";
             button2.TextAlign = ContentAlignment.MiddleRight;
@@ -379,7 +380,7 @@
             button1.ImageAlign = ContentAlignment.MiddleLeft;
             button1.Location = new Point(0, 0);
             button1.Name = "button1";
-            button1.Size = new Size(338, 57);
+            button1.Size = new Size(337, 57);
             button1.TabIndex = 0;
             button1.Text = "Báo cáo ";
             button1.TextAlign = ContentAlignment.MiddleRight;
@@ -392,12 +393,13 @@
             panel4.Dock = DockStyle.Top;
             panel4.Location = new Point(0, 168);
             panel4.Name = "panel4";
-            panel4.Size = new Size(1175, 16);
+            panel4.Size = new Size(1176, 16);
             panel4.TabIndex = 1;
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(255, 255, 192);
+            panel1.Controls.Add(button11);
             panel1.Controls.Add(button10);
             panel1.Controls.Add(button9);
             panel1.Controls.Add(panel3);
@@ -407,13 +409,22 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1175, 168);
+            panel1.Size = new Size(1176, 168);
             panel1.TabIndex = 0;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(353, 110);
+            button10.Name = "button10";
+            button10.Size = new Size(94, 29);
+            button10.TabIndex = 7;
+            button10.Text = "button10";
+            button10.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
             button9.Location = new Point(362, 66);
-            button9.Margin = new Padding(2, 2, 2, 2);
+            button9.Margin = new Padding(2);
             button9.Name = "button9";
             button9.Size = new Size(90, 27);
             button9.TabIndex = 6;
@@ -425,7 +436,7 @@
             panel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             panel3.Controls.Add(button8);
             panel3.Controls.Add(button7);
-            panel3.Location = new Point(983, 129);
+            panel3.Location = new Point(984, 129);
             panel3.Name = "panel3";
             panel3.Size = new Size(192, 39);
             panel3.TabIndex = 5;
@@ -502,14 +513,14 @@
             label1.Size = new Size(0, 20);
             label1.TabIndex = 0;
             // 
-            // button10
+            // button11
             // 
-            button10.Location = new Point(353, 110);
-            button10.Name = "button10";
-            button10.Size = new Size(94, 29);
-            button10.TabIndex = 7;
-            button10.Text = "button10";
-            button10.UseVisualStyleBackColor = true;
+            button11.Location = new Point(572, 71);
+            button11.Name = "button11";
+            button11.Size = new Size(94, 29);
+            button11.TabIndex = 8;
+            button11.Text = "button11";
+            button11.UseVisualStyleBackColor = true;
             // 
             // FrmMain
             // 
@@ -591,5 +602,6 @@
         private ToolStripMenuItem redoToolStripMenuItem;
         private Button button9;
         private Button button10;
+        private Button button11;
     }
 }

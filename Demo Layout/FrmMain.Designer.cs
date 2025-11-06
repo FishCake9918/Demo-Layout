@@ -84,6 +84,7 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.BackColor = Color.FromArgb(227, 242, 253);
             menuStrip1.ImageScalingSize = new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { menu1ToolStripMenuItem, editToolStripMenuItem, toolsToolStripMenuItem, helpToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
@@ -182,6 +183,7 @@
             // 
             // toolStrip1
             // 
+            toolStrip1.BackColor = SystemColors.InactiveBorder;
             toolStrip1.ImageScalingSize = new Size(50, 50);
             toolStrip1.ImeMode = ImeMode.On;
             toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripLabel1, toolStripProgressBar1, toolStripButton2, toolStripButton1, toolStripButton3, toolStripButton4, toolStripButton5, toolStripSeparator2 });
